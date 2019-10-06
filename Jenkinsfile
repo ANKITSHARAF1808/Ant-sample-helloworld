@@ -17,7 +17,7 @@ stage ("ant build")
   
 		withAnt(installation: 'Ankit_Local_Ant') 
 		{
-		sh 'ant test'
+		sh 'ant run'
     }
 }
 }
